@@ -4,7 +4,7 @@ import Layout from './Layout';
 const Activity = () => {
 
     return (
-        <>
+        <div className='border mt-20'>
       <h5>Activitas</h5>
       <div>
           <p>Yusron Baru saja menambahkan lokasi baru Kantor Cabang Jagakarsa</p>
@@ -18,7 +18,7 @@ const Activity = () => {
           <p>Yusron melakukan perubahan profil pada Induk Kantor Cabang Bekasi</p>
           <p>Kemarin, 17.32 WIB</p>
       </div>
-      </>
+      </div>
       
 
     )

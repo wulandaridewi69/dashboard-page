@@ -16,44 +16,44 @@ import PostAddOutlinedIcon from '@mui/icons-material/PostAddOutlined';
 const Icon = () => {
 
     return (
-        <>
-            <div>
-                <img src={Segitiga} />
+        <div className='border text-center'>
+            <div className='mb-8 h-auto w-6/12 '>
+                <img className='text-center' src={Segitiga} />
             </div>
             <div>
                 <HomeOutlinedIcon />
             </div>
-            <div>
+            <div className='mt-4'>
                 <ConfirmationNumberOutlinedIcon />
             </div>
-            <div>
+            <div className='mt-4'>
                 <EventAvailableOutlinedIcon />
             </div>
-            <div>
+            <div className='mt-4'>
                 <Inventory2OutlinedIcon />
             </div>
-            <div>
+            <div className='mt-4'>
                 <VillaIcon />
             </div>
-            <div>
+            <div className='mt-4'>
                 <PeopleAltOutlinedIcon />
             </div>
-            <div>
+            <div className='mt-4'>
                 <LayersOutlinedIcon />
             </div>
-            <div>
+            <div className='mt-4'>
                 <ViewInArOutlinedIcon />
             </div>
-            <div>
+            <div className='mt-4'>
                 <KeyboardCommandKeyOutlinedIcon />
             </div>
-            <div>
+            <div className='mt-4'>
                 <MonetizationOnOutlinedIcon />
             </div>
-            <div>
+            <div className='mt-4'>
                 <PostAddOutlinedIcon />
             </div>
-        </>
+        </div>
     )
 
 }
